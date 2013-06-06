@@ -807,7 +807,7 @@ class AdsenseReportsGenerateResponse {
   core.String kind;
 
   /** The total number of rows matched by the report request. Fewer rows may be returned in the response due to being limited by the row count requested or the report row limit. */
-  core.String totalMatchedRows;
+  core.int totalMatchedRows;
 
   /** The totals of the report. This is the same length as any other row in the report; cells corresponding to dimension columns are empty. */
   core.List<core.String> totals;

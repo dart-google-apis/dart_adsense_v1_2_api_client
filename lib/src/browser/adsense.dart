@@ -76,7 +76,7 @@ class Adsense extends BrowserClient {
 
   Adsense([oauth.OAuth2 auth]) : super(auth) {
     basePath = "/adsense/v1.2/";
-    rootUrl = "https://www.googleapis.com:443/";
+    rootUrl = "https://www.googleapis.com/";
     _accounts = new AccountsResource_(this);
     _adclients = new AdclientsResource_(this);
     _adunits = new AdunitsResource_(this);
