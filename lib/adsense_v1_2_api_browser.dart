@@ -2,7 +2,7 @@ library adsense_v1_2_api.browser;
 
 import "package:google_oauth2_client/google_oauth2_browser.dart" as oauth;
 
-import 'package:google_adsense_v1_2_api/src/cloud_api_browser.dart';
+import 'package:google_adsense_v1_2_api/src/browser_client.dart';
 import "package:google_adsense_v1_2_api/adsense_v1_2_api_client.dart";
 
 /** Gives AdSense publishers access to their inventory and the ability to generate reports */
